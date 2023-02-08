@@ -3,6 +3,7 @@
 require 'rubygems'
 require 'nokogiri'
 require 'faraday'
+require 'json'
 
 uri = "https://www.nasa.gov/api/2/ubernode/485152" #target endpoint
 response = Faraday.get uri
